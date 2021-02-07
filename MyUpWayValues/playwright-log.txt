@@ -1,0 +1,4 @@
+{"level":30,"time":"2021-02-07T12:25:37.050Z","pid":1632391,"hostname":"WhiteBox1","msg":"Listening on 51871"}
+{"level":30,"time":"2021-02-07T12:25:37.825Z","pid":1632391,"hostname":"WhiteBox1","msg":"Changed active context"}
+{"level":30,"time":"2021-02-07T12:25:38.277Z","pid":1632391,"hostname":"WhiteBox1","msg":"Video path: undefined"}
+{"level":30,"time":"2021-02-07T12:25:38.278Z","pid":1632391,"hostname":"WhiteBox1","msg":"Changed active page"}

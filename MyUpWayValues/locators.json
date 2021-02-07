@@ -1,0 +1,23 @@
+{
+    "Browser.Locator.00": {
+        "screenshot": "iVBORw0KGgoAAAANSUhEUgAAAL8AAAAZCAYAAABgr//1AAACMUlEQVR4nO3cwW6jMBAGYL//G+z2Kbr7Eq2CNFKUEeMLXGMlwtppIIAI/x6isJuG3lpIw3zSf4DMYQ6W4xgTV/5+QpOu0B8PGBNjRJ7n8N6DiJAkicVylyEieO+R5zlijKPjuT8e0KQrHH49wTXparRov9+DiCAiCCFAVdF13WitMfeg6zqoKkIIEBEQEfb7/Whtm67g3s/4TdOAmSEiqKpqip6N+RJVVUFEwMxomubqs/54gHtfTEQIIUzapDFfKYQAIrqZzIfB3zQNiOjDtZIx31mMEUR09Q0wDH5m/nB9ZMwjCCGAmYdrB5x/3IrIbE0ZMxURGSZ5B2B0PWTMI1JVrNdrAICLMdqsbxZFRBBjhMvz3HZ3zKKEEJDnOZyIQFXn7seYyagqRASOiOzJrVmUrutARHBJkszdizGTS5LEZn6zPMPMb2t+szTDmt92e8zSDLs9ts9vloaZz/v8gD3hNctx9YQXOJ/t8d7P2pQxU/De/zvb0/c9+r4HMyOEgMu1xfJouZzqvFwPg7+u6+E8/9xNWiyfnct5/rquh3vu/4KyLIc3ueZu1mL5rFze5CrL8uq+O1VvVzfqugYzw3t/U2yxfKeoKrz3YOarGb/ve5xKhav5FafT6Sa73W7494btdgtVRdu2o7UWyz2kbVuoKrbbLTabDdbrNXa73WjtkV/g3p5/ouZXdKWOFhVFgSzLkKap/W+P5a5DREjTFFmWoSiK0fHcHf7gyC94e/6Bv5y4TdxbQe4AAAAAAElFTkSuQmCC",
+        "source": "https://myupway.com/",
+        "strategy": "id",
+        "type": "browser",
+        "value": "Email"
+    },
+    "Browser.Locator.01": {
+        "screenshot": "iVBORw0KGgoAAAANSUhEUgAAAL8AAAAZCAYAAABgr//1AAACMUlEQVR4nO3cwW6jMBAGYL//G+z2Kbr7Eq2CNFKUEeMLXGMlwtppIIAI/x6isJuG3lpIw3zSf4DMYQ6W4xgTV/5+QpOu0B8PGBNjRJ7n8N6DiJAkicVylyEieO+R5zlijKPjuT8e0KQrHH49wTXparRov9+DiCAiCCFAVdF13WitMfeg6zqoKkIIEBEQEfb7/Whtm67g3s/4TdOAmSEiqKpqip6N+RJVVUFEwMxomubqs/54gHtfTEQIIUzapDFfKYQAIrqZzIfB3zQNiOjDtZIx31mMEUR09Q0wDH5m/nB9ZMwjCCGAmYdrB5x/3IrIbE0ZMxURGSZ5B2B0PWTMI1JVrNdrAICLMdqsbxZFRBBjhMvz3HZ3zKKEEJDnOZyIQFXn7seYyagqRASOiOzJrVmUrutARHBJkszdizGTS5LEZn6zPMPMb2t+szTDmt92e8zSDLs9ts9vloaZz/v8gD3hNctx9YQXOJ/t8d7P2pQxU/De/zvb0/c9+r4HMyOEgMu1xfJouZzqvFwPg7+u6+E8/9xNWiyfnct5/rquh3vu/4KyLIc3ueZu1mL5rFze5CrL8uq+O1VvVzfqugYzw3t/U2yxfKeoKrz3YOarGb/ve5xKhav5FafT6Sa73W7494btdgtVRdu2o7UWyz2kbVuoKrbbLTabDdbrNXa73WjtkV/g3p5/ouZXdKWOFhVFgSzLkKap/W+P5a5DREjTFFmWoSiK0fHcHf7gyC94e/6Bv5y4TdxbQe4AAAAAAElFTkSuQmCC",
+        "source": "https://myupway.com/",
+        "strategy": "id",
+        "type": "browser",
+        "value": "Password"
+    },
+    "Browser.Locator.02": {
+        "screenshot": "iVBORw0KGgoAAAANSUhEUgAAAGYAAAAdCAYAAABYOhlgAAAFmUlEQVRoge2a+29TZRjHn3F2OlbStd2GQwuDrYCgJrJxVbygIBGGidfJnBP8RUVRYG4du28wxiWaYDBivBFh0jE3CV5ABd2AgRN7Snu2np1/QsEs+7F8/IFQnWXoQLaanJN8kibP2+f9vu8nPT1pX8G6xvS6dOnSEKLRKNFoFLkyYHBwECPSR1DTCAQCFqNMUNMw+w0GBgb+FPP7xYtoWoBwKEh/RMc0LEab/ohOOBRE0wJcvHABGRwcRNMClpAEIdIXRtMCSCTSRzgUHPNAFn8SDgWRoKZZn5YEoz+iI4FAYMyDWMRjiUlQLDEJiiUmQflPxVRV+khLc/BFx6Hrql/PfJWbfTfUQ/ulB4/Hw2OrCoYd0+pvYeLEibS3+Xlk2VIKClZgGjrntZ/xeDzU1VZTudnH1Oxswud/GX0xXT8eR0RiizhyuJ0JEyYwZcpkfjpzksaGOqZmZ3PkcPtV3/9P9ZHicDi4Z9HCG+oRDPRwx+zZFK0uHHZM5w/fU1j4NCc7j1NbU0VjQx2moWP0hSh5vpgD+/fx6b6PeHHtCxh9obEVc6rrBLfeOgmnM41j33z5n4QZCzGJynWJWbLkQWbOnEFqair+z/bH6qWbNiAitLf5OfH9UebNzcfldKKqKr7y0iH1wx1tZGXdgqom47ntNurrqjENnU8+/gARYeuWekxDJzt7CrNm3Y5p6PSGNYqLi3C73WRmZqAoSkxMfn4eWVm3YBo6u3Y2IyK8u2f3kPzfHvuKOXPuJiUlhYyMdPa+twfT0LHZbCx58AFMQ2fve3uYNnUqNpuNyZM9nOo6MWxWoy/EdK8XVVVJT0+nsPBpIr3nMQ2dhQsX4Ha7sdlsTPd6+ejD92++mCvs2tk8pP7XjW/1t8QkVvjKONTaMqTec/Y0Fb4ytjTWs2D+PBRFoftU5zXF1FRXIiKsXPEob5ZuRFXVEYl5tvAZRIT6umpqa6o4/t3RODE5OdOYNCmLnTu24SsvpT8SHjaraejU1lSxdUs9hc88hYjwzu63Yz1zc3MoLyslMzODzMyMEd3mrkuMy+VCRPB6cznb3XVNMb7y0qvWv+g4RF7eHBwOB3a7HRHh80MHrynmkWVLURQFPXQ5819vZf9GTHVVBSLC3Pz82Ab+XcyVOQoKVtDe5sc09GGznuvpZvnyZbhcLhwOByJCeVlpXM/nip5FRDh98sebK+axVQVUbvYhIuTlzaE3rI1YzIL583C73fgPHmD9a+sQEVr9LbQc2IeIUF1VESdm+fJlJCUlETh3Nk7MokULcDrTrinGNHTe2f028+fNRUTY8Mb6uE0MBc/FnrAURWH/p58Mm/XK67d27eD9ve8iIpRu2hDX88W1axARfjh+7OaLMQ2d4udWIyK8uu7lEYuZm5+Pw+Fge3MTxcVFscV2n+pEVZPxenOp8JXhcjpjYrZv24qIsHjxvdRUbSYlJSUmpuT5YkSEF0qKWbVq5VXFbG9uoq62msaGOpKSkli54tG4TXx9/atsa2pk7ZoSRISG+pphs6575aWY4MaGusQRo4c0ZsyYjqIocd8hVxOzccPriAgd7a34Dx5g9qxZqKrK+PHj8XpzOfr1EUxDp7lpCxMzM0lOTiY9PZ0nn3g81mPTxjfweDwoikJGRjpr15RgGjpnTndy//2LUVUVuz2VnJxptPpbhuQvWl1IWpoDm83GXXfdyeGOtiGbaPSFuPOO2djtqdjtdpY+/BDnerqHzXq2u4v77luM3Z4aezB4a9eO0RdzI2xramTmzBmMGzeOn86cHJU5/8+MihijL4TL6cTlcuErf3PMF/1/wPqtLEGxxCQolpgExRKToEgwaP3nn2j0R3TrlEwiEg4FkYGBAetcWQIR6Q1dPlcWjUa5eOECmhagVw9ZgsaI/ohOr35Zym+//sofjmHF7HbOl+MAAAAASUVORK5CYII=",
+        "source": "https://myupway.com/",
+        "strategy": "class",
+        "type": "browser",
+        "value": "LoginButton"
+    }
+}
