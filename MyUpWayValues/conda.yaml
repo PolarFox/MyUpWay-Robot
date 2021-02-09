@@ -8,5 +8,6 @@ dependencies:
   - pip:
     - rpaframework==7.*
     - robotframework-browser==2.3.3
+    - pymongo[tls]==3.*
 rccPostInstall:
   - rfbrowser init
