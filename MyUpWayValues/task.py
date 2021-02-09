@@ -2,16 +2,15 @@
 from datetime import datetime
 from RPA.Robocloud.Secrets import Secrets
 from RPA.Browser.Playwright import Playwright as Browser
-import os
 import re
 from pymongo import MongoClient
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse
 
 
 secret = Secrets()
 
 MONGODB_CONNECTION_STRING = secret.get_secret("db")["connection_string"]
-db = MongoClient(host=MONGODB_CONNECTION_STRING)["MyUpWayData"]
+db = MongoClient(host=MONGODB_CONNECTION_STRING, w=0)["MyUpWayData"]
 
 browser = Browser()
 url = urlparse("https://myupway.com/LogIn?ReturnUrl=%2fSystem%2f{}%2fStatus%2fServiceInfo".format(secret.get_secret("myupway")["system"]))
@@ -88,18 +87,14 @@ def parse_value(value: str) -> list:
         value_parts = [value[:-1], "h"]
     return value_parts
 
-def minimal_task():
-    print("Done.")
-    print(f"Secrets: {secret.get_secret('myupway')}")
 
 
 if __name__ == "__main__":
-    minimal_task()
     login_myupway()
     heatpump_data = read_heatpump_data()
-    heatpump_data = [{**x,**{"system": secret.get_secret("myupway")["system"]} } for x in heatpump_data]
-    db["heatpump"].insert_many(heatpump_data)
+    heatpump_data = [{**x,**{"system": int(secret.get_secret("myupway")["system"])} } for x in heatpump_data]
+    db["heatpump"].insert_many(heatpump_data, ordered=False)
     slave1_data = read_slave_data(1)
-    slave1_data = [{**x,**{"system": secret.get_secret("myupway")["system"]} } for x in slave1_data]
-    db["slave"].insert_many(slave1_data)
+    slave1_data = [{**x,**{"system": int(secret.get_secret("myupway")["system"])} } for x in slave1_data]
+    db["slave"].insert_many(slave1_data, ordered=False)
     browser.close_browser("ALL")
